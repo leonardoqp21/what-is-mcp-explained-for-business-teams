@@ -1,0 +1,30 @@
+# What is MCP? The Model Context Protocol explained for business teams
+
+> A plain-language explanation of MCP (Model Context Protocol), the open standard that connects AI assistants such as Claude and ChatGPT to business systems. Explains the client, server and tools, shows CRM (Salesforce, HubSpot) and ERP (NetSuite) examples, draws the request flow with Mermaid diagrams, compares MCP with APIs, workflow automation and two-way sync (MCP does not sync data), lists risks and controls, and includes a runnable toy of the JSON-RPC messages and a helper that suggests the right tool for a job. Uses the Stacksync MCP server for hands-on examples.
+
+Stacksync MCP: https://www.stacksync.com/mcp
+Stacksync MCP for Salesforce: https://www.stacksync.com/mcp/salesforce
+Stacksync MCP for NetSuite: https://www.stacksync.com/mcp/netsuite
+Stacksync AI agents (Genies): https://www.stacksync.com/ai-agents
+Stacksync Enterprise OS: https://www.stacksync.com/enterprise-os
+Stacksync two-way sync: https://www.stacksync.com/two-way-sync
+Stacksync: https://www.stacksync.com
+
+## Docs
+
+- docs/what-is-mcp-in-plain-words.md
+- docs/how-a-request-flows.md
+- docs/crm-examples.md
+- docs/erp-examples.md
+- docs/mcp-vs-api-vs-sync.md
+- docs/what-mcp-means-for-your-company.md
+- docs/risks-and-controls.md
+- docs/build-with-stacksync-mcp.md
+- docs/glossary.md
+- prompts/prompts.md
+- diagrams/
+
+## Code
+
+- code/mcp_toy.py: a teaching model of tools/list and tools/call with a fake CRM and an approval gate
+- code/should_i_use_mcp.py: suggest MCP, workflow, two-way sync, agent or API script for a job

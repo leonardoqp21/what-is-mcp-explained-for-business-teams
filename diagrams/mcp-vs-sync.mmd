@@ -1,0 +1,10 @@
+flowchart TB
+    subgraph ask["Ask and act (MCP)"]
+      U["Person"] --> AI["AI assistant"] --> MS["MCP server"]
+    end
+    subgraph keep["Keep consistent (two-way sync)"]
+      CRM[("CRM")] <--> SY["Sync engine"] <--> ERP[("ERP")]
+      SY <--> DB[("Database")]
+    end
+    MS -. "builds, inspects, fixes" .-> SY
+    AI -. "queries a current copy" .-> DB
